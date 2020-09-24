@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tugas CSS - NIOMIC</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <style>
+    body {
+      background-color: black;
+    }
+    label {
+      color: white;
+    }
+      .container {
+        width:500px;
+        height: 700px;
+        margin-top: 40px;
+        font-size: 11px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="lampung.jpg" class="rounded-circle mx-auto d-block" width="150px" height="70px">
+      <br>
+      <br>
+      <form>
+        <label for="name">Nama Lengkap</label>
+        <input class="form-control" type="text" placeholder="Nama Lengkap" >
+        <br>
+        <label for="name">Alamat </label>
+        <textarea class="form-control" name="name" rows="2" cols="80"></textarea>
+        <br>
+        <label for="name">Alamat Email </label>
+        <input class="form-control" type="email" placeholder="Alamat Email (disabled)" disabled >
+        <br>
+        <label for="name">Password </label>
+        <input class="form-control" type="password" placeholder="Password" >
+        <br>
+        <label for="name">Scan KTP </label>
+        <input class="form-control" type="file">
+        <br>
+        <input type="checkbox" id="tos">
+        <label for="tos"> Saya setuju dan telah membaca <a href="#">aturan</a> serta <a href="#">ketentuan</a> yang berlaku</label><br>
+        <br>
+        <button class="btn btn-primary btn-block" type="button" name="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
